@@ -1,0 +1,10 @@
+->variable inside causes repeatation of same digits 
+ex:  123
+     123
+     123
+
+
+->variables outside loop , just after int main causes no repeatation
+ex: 123
+    456
+    789

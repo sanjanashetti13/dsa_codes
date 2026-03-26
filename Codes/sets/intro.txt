@@ -1,0 +1,18 @@
+sets are ordered pairs
+has unique ele
+
+inser,Emplacecount
+erase
+find
+size
+empty 
+erase
+
+lower bound !< key     these 2 are only for sorted sets
+upper bound > key
+
+multiset - prints even duplicates
+
+
+unordered set--- optimised O(1)
+prints element from backwards

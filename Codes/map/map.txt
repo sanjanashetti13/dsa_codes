@@ -1,0 +1,14 @@
+[key] = value
+
+insert / Emplace
+erase
+find
+size
+empty
+erase
+
+It sorts key by default
+
+
+2)Multi MAp
+

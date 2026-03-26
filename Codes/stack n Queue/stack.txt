@@ -1,0 +1,22 @@
+Stack                 Queue
+
+Push / Emplace 
+Top         -------  Front
+Pop
+size 
+empty
+swap
+
+
+
+Priority queue:
+->elemts are placed such that the highest value is at the top
+->has same funcs as stack
+
+ex: 2,3,5,10,4
+
+10
+5
+4
+3
+2
