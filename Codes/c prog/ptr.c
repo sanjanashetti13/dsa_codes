@@ -3,17 +3,22 @@
 int main(){
     int a = 23;
     int *p = &a;
-    int _age = *p;
+    // int _age = *p;
 
     //printf("%d\n", _age);
-    printf("%d\n", p);
-    printf("%d\n", &a);
-    printf("%u\n", a);
-    printf("%u\n", p);
-    printf("%u\n", &a);
+    printf("%d\n", *p);
+    // printf("%d\n", &a);
+    // printf("%u\n", a);
+    // printf("%u\n", p);
+    // printf("%u\n", &a);
+    *p++;
+    printf("%u\n", *p);
 
 
 
 
     return 0;
 }
+
+
+
