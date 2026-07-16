@@ -27,6 +27,7 @@ void print (int num){
 
 int main(){
     int n = 7032;
+
    print(n);
     return 0;
 }

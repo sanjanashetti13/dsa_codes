@@ -14,7 +14,9 @@ int twosum(int arr[], int k){
     int cursum = 0;
     int maxsum = 0;
 
-    while(str < k){
+    for(int i = 0; i < k; i++){
+        if()
+    }
     cursum = arr[str] + arr[str+1];
         if( cursum > maxsum)
         {

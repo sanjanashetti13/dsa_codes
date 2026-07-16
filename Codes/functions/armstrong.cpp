@@ -15,9 +15,8 @@ bool armstrong (int num){
     
 }
 
-
 int main(){
-    int n = 153;
+    int n = 1532;
 
     if(armstrong(n)){
         cout << "is Armstrong";
