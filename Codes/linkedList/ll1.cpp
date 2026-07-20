@@ -21,7 +21,7 @@ class List{
         head = tail = NULL;
     }
 
-    void push_front(int val){
+    void push_front(int val){ //O(1);
     Node* newnode = new Node(val);
     // Node newnode(val);
     
@@ -35,7 +35,7 @@ class List{
     }
     }
 
-    void push_back(int val){
+    void push_back(int val){ //O(1)
          Node* newnode = new Node(val);
         if(head == NULL){
             head = tail = newnode;
