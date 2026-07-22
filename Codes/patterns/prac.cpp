@@ -177,9 +177,7 @@ for(int i = 1; i < n; i++){
         cout << " ";
     }
     for(int k = 0; k < i; k++){
-        while(k>0){
-            cout << k+1;
-        }
+        cout << k;  
         
     }
 

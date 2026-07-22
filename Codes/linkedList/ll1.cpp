@@ -67,7 +67,7 @@ class List{
         Node* temp = head;
             while(temp -> next != tail){
                     temp = temp->next;
-            }
+            } 
             temp -> next = NULL;
             delete tail; //deletes the internal heap storage of this var not the name
             tail = temp;

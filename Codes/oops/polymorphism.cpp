@@ -11,10 +11,10 @@ class print{
     cout << "int" <<endl;
  }
 
- void myprint(char c){
-    cout << c <<endl;
-    cout << "Char" << endl;
- }
+//  void myprint(char c){
+//     cout << c <<endl;
+//     cout << "Char" << endl;
+//  }
 
 };
 
