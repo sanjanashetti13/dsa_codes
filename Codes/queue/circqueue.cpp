@@ -60,9 +60,10 @@ int main(){
     n.push(2);
     n.push(1);
     n.push(3);
-    n.pop();
+    n.pop();    
     n.push(4);
     n.print();
     
     return 0;
 }
+

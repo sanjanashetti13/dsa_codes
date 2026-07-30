@@ -66,12 +66,14 @@ int main(){
     q.pop();
   
 
-      cout << q.fronti() << endl;
+     
     while(!q.empty()){
         cout << q.fronti() << " ";
         q.pop();
     }
     cout << endl;
+
+   
 
   
 
