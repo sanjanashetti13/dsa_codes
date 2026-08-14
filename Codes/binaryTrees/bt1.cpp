@@ -89,6 +89,15 @@ void levelORDER(Node* root){
     }
     }
 
+    int sumNode(Node* root){
+    if(root == nullptr){
+        return 0;
+    }
+    int leftsum = sumNode(root -> left);
+    int rightNode = sumNode(root -> right)
+    return root->data + leftsum + rightNode;
+}
+
 
 }
 
