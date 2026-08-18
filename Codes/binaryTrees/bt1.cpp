@@ -14,18 +14,18 @@ class Node{
         }
 };
 
-
-Node* bulidTree(vector<int> preorder){
+static int index = -1;
+Node* bulidTree(vector<int> p){
     
-    static int index = -1;
+   
     index++;
-    if(preorder[index] == -1){
+    if(p[index] == -1){
         return nullptr;
 }
     
-    Node* root = new Node(preorder[index]);
-    root -> left = bulidTree(preorder);
-    root -> right = bulidTree(preorder);
+    Node* root = new Node(p[index]);
+    root -> left = bulidTree(p);
+    root -> right = bulidTree(p);
     return root;
 }
 void preORDER(Node* root){
