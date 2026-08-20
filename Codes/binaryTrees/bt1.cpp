@@ -14,7 +14,7 @@ class Node{
         }
 };
 
-static int index = -1;
+static int index = -1; //it takes teh mst recent value
 Node* bulidTree(vector<int> p){
     
    
